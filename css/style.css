@@ -1,0 +1,45 @@
+body{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+#fname_notice,#lname_notice,#email_notice,#phone_notice,#password_notice,#con_password_notice{
+    padding: 0;
+    margin: 0;
+    color: red;
+    display: none;
+}
+*:focus{
+    outline: none;
+}
+#webpage{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#first-name,#last-name,#email,#phone-number,#dob,#password,#confirm-password{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #1BA3C8;
+    border-radius: 5px;
+}
+
+#address{
+    border: 2px solid #1BA3C8;
+    border-radius: 5px;
+}
+
+#button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border: 2px solid #53EC98;
+    border-radius: 10px;
+    cursor: pointer;
+}
